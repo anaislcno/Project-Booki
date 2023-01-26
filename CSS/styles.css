@@ -1,9 +1,4 @@
-/* Basics */
-
-* {
-    margin: 0;
-    padding: 0;
-}
+/* Fonts */
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -29,14 +24,50 @@ h3 {
     line-height: 19px;
 }
 
-p {
+p, a {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
 }
+
+/* Base */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 /* Header */
+
+.logo {
+    width: 61px;
+    height: 19px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 77px 44px 55px;
+}
+
+nav a {
+    margin-left: 30px;
+    padding: 42px 15px 0px 15px;
+}
+
+nav a:hover {
+    border-top: 2px solid #0065FC;
+    color:#0065FC;
+}
 
 /* Body */
 

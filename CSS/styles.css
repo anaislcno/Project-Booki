@@ -16,8 +16,9 @@ h2 {
     line-height: 26px;
 }
 
-h3 {
+h3, ::placeholder {
     font-family: 'Raleway', sans-serif;
+    color: black;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -34,9 +35,14 @@ p, a {
 
 /* Base */
 
+html {
+    max-width: 1400px;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -70,5 +76,58 @@ nav a:hover {
 }
 
 /* Body */
+
+/* Form */
+/* Style the input container */
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form icons */
+
+  .icon-search {
+    padding: 10px;
+    background-color: #F2F2F2;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  /* Style the input field */
+
+  #input-field {
+    padding: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #F2F2F2;
+    border-left-style: none;
+  }
+  
+  /* Style submit button */
+
+  input[type='submit'] {
+    font-family: 'Raleway';
+    background-color: #0065FC;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
 
 /* Footer */

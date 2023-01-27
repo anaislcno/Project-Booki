@@ -224,10 +224,11 @@ li:hover {
 .card-host {
     width: 245px;
     height: 200px;
-    background-color: #DEEBFF;
+    background-color: white;
     padding: 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
+    margin: 15px 15px 15px 15px;
 }
 
 .card-host p {
@@ -261,11 +262,12 @@ li:hover {
 .card-popular {
     width: 345px;
     height: 145px;
-    background-color: #DEEBFF;
+    background-color: white;
     padding: 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
     display: flex;
+    margin: 15px 15px 15px 15px;
 }
 
 .card-popular p {
@@ -278,6 +280,33 @@ li:hover {
     flex-direction: column;
     justify-content: space-between;
     margin: 15px 15px 10px 15px;
+}
+
+/* Hosting part */
+
+#host-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+/* Popular part */
+
+#popular-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+/* Both part */
+
+#articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Footer */

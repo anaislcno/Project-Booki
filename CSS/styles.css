@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+main {
+    padding: 20px 50px 20px 50px;
+}
+
 /* Fonts */
 
 h1 {
@@ -77,6 +81,10 @@ nav a:hover {
 
 /* Body */
 
+#hang {
+    margin-bottom: 20px;
+}
+
 /* Form */
 /* Input container */
 
@@ -86,7 +94,7 @@ nav a:hover {
     height: 50px;
   }
   
-  /* Form icon */
+/* Form icon */
 
 .icon-search {
     padding: 16px;
@@ -96,7 +104,7 @@ nav a:hover {
     border-radius: 15px 0px 0px 15px;
   }
   
-  /* Input field */
+/* Input field */
 
 #input-field {
     padding: 10px;
@@ -105,7 +113,7 @@ nav a:hover {
     width: 200px;
 }
   
-  /* Submit */
+/* Submit */
 
 input[type='submit'] {
     font-family: 'Raleway';
@@ -133,6 +141,45 @@ input::placeholder {
 
 #search-form {
     display: flex;
+}
+
+/* Filter bar */
+/* Set criteria */
+
+ul {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+}
+
+li {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    margin-right: 30px;
+}
+
+ul .fa-solid {
+    color: #0065FC;
+    padding-right: 10px;
+}
+
+/* Set bar */
+
+#filter {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#filter-criteria {
+    margin-left: 30px;
 }
 
 /* Footer */

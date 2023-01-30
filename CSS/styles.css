@@ -146,7 +146,7 @@ input::placeholder {
 /* Filter bar */
 /* Set criteria */
 
-ul {
+#filter ul {
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -157,7 +157,7 @@ ul {
     display: flex;
 }
 
-li {
+#filter li {
     border: 2px solid #D9D9D9;
     border-radius: 20px;
     width: fit-content;
@@ -170,7 +170,7 @@ ul .fa-solid {
     padding-right: 10px;
 }
 
-li:hover {
+#filter li:hover {
     background-color: #DEEBFF;
     cursor: pointer;
 }
@@ -361,6 +361,8 @@ li:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 #Redirection2 {
@@ -368,3 +370,30 @@ li:hover {
 }
 
 /* Footer */
+
+.list-canva ul {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.list-canva li {
+    margin-bottom: 10px;
+}
+
+.list-canva h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px 0px 50px;
+    background-color:#F2F2F2;
+    padding: 45px 70px 50px 70px;
+}

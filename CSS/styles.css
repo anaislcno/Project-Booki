@@ -332,12 +332,39 @@ li:hover {
 
 .canva-title {
     margin-left: 30px;
-}
-
-#Redirection2 {
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
+}
+
+/* Card activities */
+
+.card-activities img {
+    width: 100%;
+    object-fit: cover;
+    height: 390px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-activities {
+    width: 300px;
+    height: 445px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
+}
+
+.container-card-activities {
+    margin: 15px 0px 15px 20px;
+}
+
+#flex-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Redirection2 {
+    margin: 60px 0px 25px 0px;
 }
 
 /* Footer */

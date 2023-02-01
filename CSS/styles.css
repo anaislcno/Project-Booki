@@ -2,6 +2,7 @@
 
 html {
     max-width: 1400px;
+    margin: auto;
 }
 
 * {
@@ -85,6 +86,10 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+#hang h2 {
+    margin-bottom: 10px;
+}
+
 /* Form */
 /* Input container */
 
@@ -141,6 +146,11 @@ input::placeholder {
 
 #search-form {
     display: flex;
+    margin-left: 5px;
+}
+
+button {
+    display: none;
 }
 
 /* Filter bar */
@@ -180,7 +190,7 @@ ul .fa-solid {
 #filter {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0px 0px 5px;
 }
 
 #filter-criteria {
@@ -202,8 +212,7 @@ ul .fa-solid {
 }
 
 #infobar {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 30px 0px 30px 5px;
 }
 
 /* Cards creation */
@@ -222,12 +231,12 @@ ul .fa-solid {
 }
 
 .card-host {
-    width: 245px;
-    height: 200px;
+    /* width: 245px;
+    height: 200px; */
     background-color: white;
     padding: 4px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-host p {
@@ -259,12 +268,12 @@ ul .fa-solid {
 }
 
 .card-popular {
-    width: 345px;
+    width: clamp(250px, 100%, 345px);
     height: 145px;
     background-color: white;
     padding: 4px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     display: flex;
 }
 
@@ -286,14 +295,14 @@ ul .fa-solid {
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px 15px 40px 15px;
-    flex: 2;
+    /* flex: 2; */
+    flex: 65%;
     height: fit-content;
 }
 
 #flex-host {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     justify-content: center;
     margin: 25px 0px 30px 0px;
@@ -304,7 +313,8 @@ ul .fa-solid {
 #popular-container {
     background-color: #F2F2F2;
     border-radius: 20px;
-    flex: 1;
+    /* flex: 1; */
+    flex: 25%;
     padding: 40px 15px 5px 15px;
     height: fit-content;
 }
@@ -326,7 +336,6 @@ ul .fa-solid {
 #articles-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -348,21 +357,23 @@ ul .fa-solid {
 
 .card-activities {
     width: 300px;
+    width: clamp(210px, 100%, 300px);
     height: 445px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .container-card-activities {
     margin: 15px 0px 15px 20px;
+    flex-wrap: wrap;
 }
 
 #flex-activities {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* flex-direction: row;
+    justify-content: space-between; */
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 #Redirection2 {
@@ -395,5 +406,7 @@ ul .fa-solid {
     justify-content: space-between;
     margin: 60px 50px 0px 50px;
     background-color:#F2F2F2;
-    padding: 45px 70px 50px 70px;
+    padding: 45px 300px 50px 70px;
+    /* padding: 45px 70px 50px 70px; */
 }
+

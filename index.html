@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" f>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="CSS/styles.css" />
@@ -21,7 +21,7 @@
   <body>
     <div id="main-wrapper">
       <!-- Head -->
-      <head>
+      <header>
         <nav>
           <img src="images/logo/Booki.png" alt="Logo Booki" class="logo" />
           <div>
@@ -29,7 +29,7 @@
             <a href="#Redirection2">Activités</a>
           </div>
         </nav>
-      </head>
+      </header>
       <!-- Main -->
       <!-- Hang and research form -->
       <main>
@@ -37,14 +37,15 @@
           <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
           <p>En plein centre-ville ou en pleine nature</p>
         </section>
+        <!-- Form -->
         <section>
-          <form method="get" action="" id="research"></form>
+          <form method="get" action=""></form>
           <div id="search-form">
             <div class="input-container">
               <div class="icon-search">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
-              <label for="research"></label>
+              <label for="input-field"></label>
               <input
                 type="search"
                 name="research"
@@ -53,6 +54,9 @@
               />
             </div>
             <input type="submit" value="Rechercher" />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
           </div>
         </section>
         <!-- Filter bar -->

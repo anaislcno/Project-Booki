@@ -1,26 +1,48 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* Card host */
+
+
+    
+    /* Card popular */
+
+    .card-popular img {
+        width: 105px;
+    }
+
+    .card-popular h3 {
+        flex-wrap: wrap;
+    }
+
+    /* Popular part */
+      
+    #flex-popular {
+        flex-direction: row;
+        gap: 15px;
+        /* margin: 25px 0px 30px 0px; */
+    }
+
+    /* Both */
+
+    .canva-title {
+        font-size: 18px;
+    }
+
     #articles-container {
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
 
-    #flex-popular {
-        flex-direction: row;
-        gap: 15px;
-        align-items: center;
-        /* margin: 25px 0px 30px 0px; */
-    }
-
-    .canva-title {
-        font-size: 18px;
-    }
-
     /* Filter bar */
 
     #filter ul {
-        font-size: 14px;
+        /* font-size: 10-14px; */
+        font-size: clamp(0.625rem, -0.875rem + 3.125vw, 1.0625rem);
+    }
+
+    #filter li {
+        margin-right: 20px;
     }
 
 } 
@@ -36,7 +58,6 @@
 
     #nav-link {
         display: flex;
-        width: 100%;
     }
 
     nav a {
@@ -95,4 +116,31 @@
     #filter h3 {
         margin-bottom: 15px;
     }
+
+    /* Hosting part */
+
+    #flex-host {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Both parts */
+
+    #articles-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Cards activities */
+
+    #flex-activities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-flex {
+        flex-direction: column;
+    }
+
 }

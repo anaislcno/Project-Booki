@@ -26,18 +26,24 @@
 
     .card-popular img {
         width: 105px;
+        min-width: 105px;
     }
 
     .card-popular h3 {
         flex-wrap: wrap;
     }
 
+    .card-popular {
+        width: auto;
+    }
+
     /* Popular part */
       
     #flex-popular {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
-        /* margin: 25px 0px 30px 0px; */
+        /* margin: 25px auto 30px auto; */
     }
 
     /* Both */
@@ -82,10 +88,15 @@
 
     #nav-link {
         display: flex;
+        align-items: center;
+        width: 100%;
     }
 
     nav a {
         padding: 40px 15px 25px 15px;
+        margin: 0;
+        flex: 1;
+        text-align: center;
     }
 
     nav a:hover {
@@ -152,7 +163,7 @@
 
     #articles-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 30px;
     }
 

@@ -383,6 +383,16 @@ ul .fa-solid {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
+.card-activities h3 {
+     /* Line clamp support by all browser */
+     display: -webkit-box;
+     -webkit-line-clamp: 1;
+     -webkit-box-orient: vertical;
+     /* ... */
+     text-overflow: ellipsis;
+     overflow: hidden;
+}
+
 .container-card-activities {
     margin: 15px 0px 15px 20px;
 }

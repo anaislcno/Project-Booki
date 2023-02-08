@@ -55,7 +55,8 @@ p, a {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: clamp(0.875rem, 0.5711rem + 0.4902vw, 1rem);
     line-height: 19px;
 }
 
@@ -102,7 +103,7 @@ nav a:hover {
     margin-bottom: 15px;
     height: 50px;
   }
-  
+
 /* Form icon */
 
 .icon-search {
@@ -112,7 +113,7 @@ nav a:hover {
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
   }
-  
+
 /* Input field */
 
 #input-field {
@@ -121,7 +122,7 @@ nav a:hover {
     border-right: none;
     width: 200px;
 }
-  
+
 /* Submit */
 
 input[type='submit'] {
@@ -138,7 +139,7 @@ input[type='submit'] {
     border-radius: 0px 15px 15px 0px;
     height: 50px;
   }
-  
+
 input::placeholder {
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -406,7 +407,7 @@ ul .fa-solid {
 }
 
 #Redirection2 {
-    margin: 60px 0px 25px 0px;
+    margin: 60px 0px 25px 15px;
 }
 
 /* Footer */
@@ -423,10 +424,10 @@ ul .fa-solid {
 
 .list-canva li {
     margin-bottom: 10px;
+    font-size: clamp(0.875rem, 0.5711rem + 0.4902vw, 1rem);
 }
 
 .list-canva h3 {
-    font-size: 18px;
     margin-bottom: 20px;
 }
 

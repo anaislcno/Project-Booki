@@ -27,10 +27,6 @@
     ul .fa-solid {
         padding-right: 7px;
     }
-
-    /* Card host */
-
-
     
     /* Card popular */
 
@@ -87,7 +83,6 @@
     }
     
     .card-activities {
-        /* width: 210px; */
         width: clamp(165px, 100%, 180px);
         height: 265px;
         border-radius: 20px;

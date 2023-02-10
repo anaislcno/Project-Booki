@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     main {
-        padding: 20px 30px 20px 30px;
+        padding: 20px 40px 20px 40px;
     }
 
     /* Bases */
@@ -95,6 +95,12 @@
         margin: auto;
     }
 
+    /* Footer */
+
+    #footer-flex {
+        padding: 45px 150px 50px 70px;
+    }
+
 } 
 
 @media screen and (min-width: 320px) and  (max-width: 768px) {
@@ -180,19 +186,19 @@
 
     #filter ul {
         display: grid;
-        grid-template-columns: 1fr min-content;
-        grid-template-rows: 40px 40px ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 40px 40px;
         gap: 15px 5px;
-        font-size: 12px;
+        font-size: 11px;
         max-width: 350px;
     }
 
     #filter li {
         border: 2px solid #D9D9D9;
         border-radius: 20px;
-        padding: 10px 0px 5px 10px;
-        margin-right: 0px;
-        width: 150px;
+        width: 100%;
+        max-width: 150px;
+        padding: 10px 5px;
     }
 
     #filter {
@@ -205,6 +211,7 @@
 
     ul .fa-solid {
         padding-right: 5px;
+        margin-left: 4px;
     }
 
     /* Hosting part */

@@ -159,6 +159,11 @@ button {
 /* Filter bar */
 /* Set criteria */
 
+#filter h2 {
+    /* 14-16px */
+    font-size: clamp(0.875rem, 0.5711rem + 0.4902vw, 1rem);
+}
+
 #filter ul {
     list-style-type: none;
     font-family: 'Raleway', sans-serif;

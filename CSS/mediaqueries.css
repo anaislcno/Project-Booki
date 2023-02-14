@@ -97,7 +97,7 @@
 
 } 
 
-@media screen and (min-width: 320px) and  (max-width: 768px) {
+@media screen and (min-width: 320px) and  (max-width: 767px) {
 
 
     h3 {
@@ -178,6 +178,10 @@
 
     /* Filter bar */
 
+    #filter h2 {
+        margin-bottom: 10px;
+    }
+
     #filter ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -224,6 +228,7 @@
 
     .card-popular {
         margin: auto;
+        width: auto;
     }
 
     #flex-popular {

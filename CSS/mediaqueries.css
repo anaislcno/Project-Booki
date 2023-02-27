@@ -152,11 +152,6 @@
     /* Body */
     /* Form */
 
-    #search-form {
-        justify-content: center;
-    }
-    
-
     input[type='submit'] {
         display: none;
     }

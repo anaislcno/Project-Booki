@@ -215,12 +215,17 @@ ul .fa-solid {
     height: 24px;
     width: 24px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 6px;
     margin-right: 10px;
 }
 
 #infobar {
     margin: 30px 0px 30px 5px;
+    display: flex;
+}
+
+#infobar-text {
+    margin-top: 2px;
 }
 
 /* Cards creation */
